@@ -134,9 +134,7 @@ input[type="message"] {
 }
 
 @media screen and (max-width:980px){
-	body{
-		background-color: green;
-	}
+
 
 	.portPic{
 		clear: both;
@@ -158,9 +156,6 @@ input[type="message"] {
 }
 
 @media screen and (max-width:768px){
-	body{
-		background-color: red;
-	}
 
 	.bio{
 	width: 100%;
@@ -195,9 +190,7 @@ input[type="message"] {
 }
 
 @media screen and (max-width:640px){
-	body{
-		background-color: pink;
-	}
+
 	.headerContainer{
 	height: 40px;
 	background-color: white;
