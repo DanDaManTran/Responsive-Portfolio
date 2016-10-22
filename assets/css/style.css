@@ -1,0 +1,236 @@
+body{
+	margin: 0;	
+	padding: 0;
+	background-color: #DCDCDC;
+	font-family: "Comic Sans MS", times, sans-serif;
+}
+
+a{
+	font-size: 80%;
+	color: green;
+}
+
+.fade{
+	opacity: 0.3;
+}
+
+.picture{
+	margin: 1%;
+}
+
+.portPic{
+	position: relative;
+	height: 35%;
+	width: 43%;
+	margin: 3%;
+}
+
+h4{
+	width: 100%;
+	background-color: green;
+	color: white;
+	text-align: center;
+	padding: 2% 0%;
+	position: absolute;
+	margin-top: -30%;
+}
+
+footer{
+	margin: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 10%;
+	width: 100%;
+	border-top: 2px solid green;
+}
+
+.link{
+	padding-top: 1%;
+}
+.headerContainer{
+	height: 40px;
+	background-color: white;
+	margin: 0%;
+	padding-left: 5%;
+	padding-right: 13%;
+	font-size: 150%;
+	font-weight: 900;
+}
+
+.titleName{
+	background-color: green;
+	height: 85%;
+	width: 150px;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.mainBod{
+	margin-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.bio{
+	background-color: white;
+	width: 60%;
+	margin-bottom: 15%;
+	padding: 2%;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.contactInfo{
+	width: 20%;
+	background-color: white;
+	padding: 1%;
+	margin-right: 8%;
+	clear: right;
+}
+
+.fLeft{
+	float: left;
+}
+
+.fRight{
+	float: right;
+}
+
+input[type="text"] {
+    width: 99%;
+    opacity: 50%;
+}
+
+input[type="message"] {
+    width: 99%;
+    height: 150px;
+    opacity: 50%;
+}
+
+.subButton{
+	background-color: green;
+    border: none;
+   	color: white;
+   	padding: 1% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.portfolio{
+	background-color: white;
+	width: 60%;
+	margin-bottom: 5%;
+	padding: 2% 4%;
+}
+
+@media screen and (max-width:980px){
+	body{
+		background-color: green;
+	}
+
+	.portPic{
+		clear: both;
+		float: left;
+		height: 80%;
+		width: 90%;
+		margin: 3%;
+	}
+
+	h4{
+		padding: 5% 0%;
+		font-size: 24px;
+	}
+
+	.bio{
+		margin-bottom: 25%;
+	}
+
+}
+
+@media screen and (max-width:768px){
+	body{
+		background-color: red;
+	}
+
+	.bio{
+	width: 100%;
+	}
+
+	.contactInfo{
+	width: 100%;
+	margin-bottom: 5%;
+	padding: 2%;
+	float: left;
+	}
+
+	.portPic{
+		position: relative;
+		height: 35%;
+		width: 43%;
+		margin: 3%;
+		clear: none;
+	}
+
+	h4{
+		padding: 5% 0%;
+		font-size: 15px;
+	}
+
+	.portfolio{
+		width: 96%;
+	}
+
+
+
+}
+
+@media screen and (max-width:640px){
+	body{
+		background-color: pink;
+	}
+	.headerContainer{
+	height: 40px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 150%;
+	font-weight: 900;
+	}
+
+	.titleName{
+		width: 100%;
+
+	}
+
+	.link{
+		background-color: white;
+		width: 100%;
+		float: left;
+		text-align: center;
+		margin-bottom: 3%;
+		padding-top: 2%;
+	}
+
+	.portPic{
+		clear: both;
+		float: left;
+		height: 80%;
+		width: 90%;
+		margin: 3%;
+	}
+
+}
+
+
+
+
